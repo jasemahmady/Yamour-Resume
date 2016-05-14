@@ -1,0 +1,275 @@
+
+.top-top-bar {
+    font-family: 'Open Sans', helvetica, sans-serif;
+    text-shadow: 4px 4px #fee601;
+    color: #232323;
+    background-color: #fffcfd;
+
+    padding-top: 100px;
+    padding-bottom: 250px;
+    padding-left: 20px;
+   
+}
+
+.info-bar {
+    font-size: 15px;
+    font-weight: 600;
+    color: #232323;
+    background-color: #ff33;
+    padding-left: 20px;
+}
+
+.initial {
+    
+    height: 98vh;
+}
+
+ 
+
+
+.objective {
+
+color: #fffcfd;
+background-color: #232323;
+height: 300px;
+padding: 0 20px 0 20px;
+}
+
+.objective-title {
+   
+    padding: 0 0 30px 0;
+}
+
+.objective-text {
+    font-family: didot, garamond, 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.objective .glyphicon {
+    font-size: 40px;
+     color: #fffcfd;
+    margin-top: 60px;
+}
+.skills {
+    background-color: #fee601;
+    height: 650px;
+   
+}
+.skills-title {
+    
+    color: #232323;
+    padding: 0px 0 30px 0;
+}
+
+.skills .glyphicon {
+    font-size: 40px;
+     color: #232323;
+    padding-top: 60px;
+}
+
+.work {
+    color: #232323;
+    background-color: #fffcfd;
+    height: 500px;
+    padding: 0 20px 0 20px;
+}
+.work-title {
+     padding: 0px 0 30px 0;
+    color: #232323;
+}
+
+.work .glyphicon {
+    font-size: 40px;
+     color: #232323;
+    padding-top: 60px;
+}
+
+.volunteer {
+    
+    color: #232323;
+    background-color: #fee601;
+    height: 400px;
+    padding: 0 20px 0 20px;
+}
+
+.volunteer-title {
+    padding: 0px 0 30px 0;
+    color: #232323;
+    
+}
+
+.volunteer .glyphicon {
+    font-size: 40px;
+     color: #232323;
+    padding-top: 60px;
+}
+.education {
+    
+color: #fffcfd;
+background-color: #232323;
+height: 400px; 
+padding: 0 20px 0 20px;
+}
+
+.education-title {
+    
+    
+    padding: 0px 0 30px 0;
+}
+.education .glyphicon {
+    font-size: 40px;
+     color: #fffcfd;
+    padding-top: 60px;
+}
+
+h2 {
+    
+    font-family: 'Open Sans', perpetua, sans-serif;
+    font-weight: 600;
+
+}
+
+h3 {
+font-weight: 800;
+font-family: didot, garamond, sans-serif;
+}
+
+p, ul {
+    font-family: avenir, garamond, sans-serif;
+}
+
+.skills ul {
+    line-height: 40px;
+    font-weight: 700;
+}
+p {
+    
+font-weight: 700;
+}
+
+.info-bar .glyphicon {
+    float: left;
+    padding-right: 10px;
+
+}
+
+h1 {
+
+    font-size: 100px;
+    font-weight: 600;
+}
+
+/* Large desktop */
+@media (min-width: 980px) and (max-width: 1119px) {
+    .initial {
+        height: 98vh;}
+    h1 { font-size: 140px;
+    }
+    .work {
+        height: 560px; }
+    .volunteer {
+        height: 520px
+    }
+    .education {
+        height: 500px;
+    }
+    .top-top-bar {padding-bottom: 400px;}
+}
+@media (min-width: 1120px) {  
+    .top-top-bar { padding-top: 50px; padding-bottom: 450px}
+    h1 { font-size: 170px}
+    .work { height: 520px}
+    .volunteer { height: 400px}
+    .education { height: 400px}
+    
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  
+    .top-top-bar { padding-top: 60px; padding-bottom: 90px}
+    h1 { font-size: 150px}
+    .work { height: 800px}
+    .volunteer { height: 525px}
+    .education { height: 480px}
+  }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  
+    .top-top-bar { padding-top: 60px;}
+    
+    h1 { font-size: 150px}
+    .work { height: 850px}
+    .volunteer { height: 530px}
+    .education { height: 480px}
+   
+}
+
+/* Landscape phones and down */
+@media (max-width: 429px) {
+  
+    .top-top-bar { padding-top: 60px;}
+    
+    h1 { font-size: 80px}
+    .work { height: 1115px}
+    .volunteer { height: 580px}
+    .education { height: 580px}
+   
+    .objective {height: 340px;}
+
+}
+@media (min-width: 430px) and (max-width: 480px) { 
+
+    .top-top-bar { padding-top: 60px;}
+    
+    h1 { font-size: 80px}
+    .work { height: 1040px}
+    .volunteer { height: 580px}
+    .education { height: 580px}
+   
+    .objective {height: 340px;}
+
+}
+    
+@media (min-width: 481px) and (max-width: 768px) {
+   
+    h1 { font-size: 100px}
+    .work {height: 950px}
+    .volunteer {height: 560px}
+    .objective {height: 335px}
+    .top-top-bar {padding-bottom: 200px}
+} 
+
+
+.animated {
+  -webkit-animation-duration: 1.25s;
+  animation-duration: 1.25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+
+.bottom-part {
+    
+    background-color: #fffcfd;
+    height: 500px;
+    
+}
+
+.send-me-text {
+ 
+    margin-bottom: 30px;
+}
+
+.bottom-part .glyphicon {
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+.form-control {
+    text-align: center
+}
+
