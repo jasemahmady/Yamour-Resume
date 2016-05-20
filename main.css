@@ -8,7 +8,6 @@
     padding-top: 100px;
     padding-bottom: 250px;
     padding-left: 20px;
-    padding-right: 20px;
    
 }
 
@@ -18,7 +17,7 @@
     color: #232323;
     background-color: #ff33;
     padding-left: 20px;
-    padding-right: 20px;
+    
 }
 
 .initial {
@@ -51,7 +50,7 @@ padding: 0 20px 0 20px;
 .objective .glyphicon {
     font-size: 40px;
      color: #fffcfd;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .skills {
     background-color: #fee601;
@@ -127,7 +126,7 @@ padding: 0 20px 0 20px;
 
 h2 {
     
-    font-family: 'Open Sans', perpetua, sans-serif;
+    font-family: avenir, perpetua, sans-serif;
     font-weight: 600;
 
 }
@@ -138,7 +137,7 @@ font-family: didot, garamond, sans-serif;
 }
 
 p, ul {
-    font-family: avenir, garamond, sans-serif;
+    font-family: 'avenir', garamond, sans-serif;
 }
 
 .skills ul {
@@ -157,7 +156,7 @@ font-weight: 700;
 }
 
 h1 {
-
+    font-family: avenir;
     font-size: 100px;
     font-weight: 600;
 }
@@ -212,9 +211,11 @@ h1 {
 /* Landscape phones and down */
 @media (max-width: 429px) {
   
-    .top-top-bar { padding-top: 60px;}
+    .top-top-bar { padding-top: 60px;
+   }
     
-    h1 { font-size: 80px}
+    h1 { font-size: 80px;
+  }
     .work { height: 1115px}
     .volunteer { height: 700px}
     .education { height: 580px}
@@ -271,7 +272,71 @@ h1 {
     padding-top: 60px;
 }
 
-.form-control {
-    text-align: center
+.contact-form {
+    
+  height: 600px;
+}
+.contact-form .glyphicon {
+    font-size: 40px;
+     color: #232323;
+    padding-top: 60px;
+}
+.contact-form-text {
+ 
+    margin-bottom: 30px;
 }
 
+.form-control {
+    
+    font-family: avenir, garamond, sans-serif;
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.message-input {
+    
+   padding-bottom: 100px;
+}
+.message-input:focus {
+   border-color: rgba(254, 230, 1, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(254, 230, 1, 0.6);
+  outline: 0 none;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus
+{   
+  border-color: rgba(254, 230, 1, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(254, 230, 1, 0.6);
+  outline: 0 none;
+}
+
+.submit-button {
+    
+    color: #fffcfd;
+    background-color: #232323;
+    
+    width: 20vw;
+    
+}
+
+.success-message {
+    visibility: hidden;
+    text-align: center;
+}
